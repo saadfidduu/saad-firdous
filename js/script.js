@@ -510,7 +510,7 @@ const weddingSongs = [
 
     "./Song/Tere Vaaste Zara Hatke Zara Bachke.mp3",
 
-    "./Song/What Jhumka Rocky Aur Rani Ki Prem Kahaani.mp3"
+    "./Song/What Jhumka.mp3"
 
 ];
 
