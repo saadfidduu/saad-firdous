@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saad & Firdous Madhiya | Our Wedding</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700&family=Parisienne&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <!-- =================================
+         LOADING SCREEN
+    ================================== -->
+
+    <div class="loading-screen">
+
+        <div class="loader">
+
+            <!-- GREEN + CREAM -->
+            <svg class="green-loader" viewBox="0 0 160 160">
+
+                <circle
+                    class="cream-circle"
+                    cx="80"
+                    cy="80"
+                    r="72">
+                </circle>
+
+                <circle
+                    class="green-circle"
+                    cx="80"
+                    cy="80"
+                    r="72">
+                </circle>
+
+            </svg>
+
+
+            <!-- RED + CREAM -->
+            <svg class="red-loader" viewBox="0 0 140 140">
+
+                <circle
+                    class="cream-circle"
+                    cx="70"
+                    cy="70"
+                    r="58">
+                </circle>
+
+                <circle
+                    class="red-circle"
+                    cx="70"
+                    cy="70"
+                    r="58">
+                </circle>
+
+            </svg>
+
+
+            <!-- MONOGRAM -->
+            <img
+                src="./Loding Monogram.svg"
+                alt="Wedding Monogram"
+                class="monogram">
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================
+     NAVIGATION BAR
+================================ -->
+
+<header class="main-navbar">
+
+    <div class="navbar-inner">
+
+        <!-- COUPLE NAME -->
+
+       <a href="#home" class="navbar-logo">
+    <img src="./SF Infinity.svg" alt="Saad Sura & Firdous Madhiya">
+</a>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar-menu">
+
+            <a href="#home" class="nav-link active">
+                HOME
+            </a>
+
+            <a href="#couple" class="nav-link">
+                COUPLE
+            </a>
+
+            <a href="#details" class="nav-link">
+                DETAILS
+            </a>
+
+            <a href="#rsvp" class="nav-link">
+                RSVP
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+    <!-- =================================
+         HERO / HOME
+    ================================== -->
+
+    <main class="hero" id="home">
+
+
+        <!-- DARK OVERLAY -->
+        <div class="hero-overlay"></div>
+
+
+        <!-- DECORATIVE PETALS -->
+
+        <span class="petal petal-1"></span>
+        <span class="petal petal-2"></span>
+        <span class="petal petal-3"></span>
+        <span class="petal petal-4"></span>
+        <span class="petal petal-5"></span>
+        <span class="petal petal-6"></span>
+        <span class="petal petal-7"></span>
+
+
+        <!-- =================================
+             HERO CONTENT
+        ================================== -->
+
+        <section class="hero-content">
+
+    <!-- NAMES -->
+
+    <p class="couple-script">
+    <span>Saad Sura</span>
+    <span>&</span>
+    <span>Firdous Madhiya</span>
+</p>
+
+
+    <!-- MESSAGE -->
+
+    <p class="hero-message">
+        Two souls are becoming one,<br>
+        and forever begins here.
+    </p>
+
+
+    <!-- COUNTDOWN TITLE -->
+
+    <p class="hero-subtitle">
+        The Countdown to Our Beautiful Beginning
+    </p>
+
+
+             <!-- DATE -->
+
+            <!-- <div class="wedding-date">
+
+                <span></span>
+
+                <p>
+                    14 NOVEMBER 2026
+                </p>
+
+                <span></span>
+
+            </div> -->
+
+
+            <!-- COUNTDOWN -->
+
+            <div class="countdown">
+
+
+                <div class="countdown-box">
+
+                    <strong id="days">
+                        00
+                    </strong>
+
+                    <small>
+                        DAYS
+                    </small>
+
+                </div>
+
+
+                <div class="countdown-box">
+
+                    <strong id="hours">
+                        00
+                    </strong>
+
+                    <small>
+                        HOURS
+                    </small>
+
+                </div>
+
+
+                <div class="countdown-box">
+
+                    <strong id="minutes">
+                        00
+                    </strong>
+
+                    <small>
+                        MINUTES
+                    </small>
+
+                </div>
+
+
+                <div class="countdown-box">
+
+                    <strong id="seconds">
+                        00
+                    </strong>
+
+                    <small>
+                        SECONDS
+                    </small>
+
+                </div>
+
+
+            </div>
+
+
+            <button class="excited-button" id="excitedButton">
+    TAP & LET LOVE BLOOM 🌸
+</button>
+
+
+        </section>
+
+
+    <!-- =================================
+     MUSIC PLAYER
+================================== -->
+
+<div class="music-player">
+
+    <!-- Play / Pause -->
+    <button
+        class="music-play"
+        id="musicToggle"
+        type="button">
+        ▶
+    </button>
+
+
+    <!-- Divider -->
+    <span class="music-divider"></span>
+
+
+    <!-- Current Time -->
+    <span
+        class="music-time"
+        id="musicCurrentTime">
+        00:00
+    </span>
+
+
+    <!-- Music Progress -->
+    <input
+        type="range"
+        id="musicProgress"
+        class="music-progress"
+        min="0"
+        max="100"
+        value="0"
+        step="0.1">
+
+
+    <!-- Divider -->
+    <span class="music-divider"></span>
+
+
+    <!-- Next Song -->
+    <button
+        class="music-next"
+        id="musicNext"
+        type="button">
+        ⏭
+    </button>
+
+</div>
+
+
+    </main>
+
+
+    <!-- =================================
+     COUPLE STORY / TIMELINE
+================================= -->
+
+<section class="couple-story" id="couple">
+
+    <!-- Background decoration -->
+    <div class="story-glow story-glow-one"></div>
+    <div class="story-glow story-glow-two"></div>
+
+    <!-- SECTION INTRO -->
+
+    <div class="story-intro">
+
+        <p class="story-eyebrow">
+            OUR STORY
+        </p>
+
+        <h2>
+            A Story Written in
+            <span>Little Moments</span>
+        </h2>
+
+        <div class="story-divider">
+            <span></span>
+            <b>♥</b>
+            <span></span>
+        </div>
+
+        <p class="story-intro-text">
+            “Love is the Gentle Art of Turning a Moment into a Memory <br> and a Memory Into Forever.”
+        </p>
+
+    </div>
+
+
+    <!-- COUPLE PORTRAITS -->
+
+    <div class="story-couple">
+
+        <div class="story-person story-person-left">
+
+            <div class="story-photo-frame">
+
+    <img
+        class="photo-frame-svg"
+        src="./Assets/Saad Photo Fream.png"
+        aria-hidden="true">
+
+</div>
+
+            <p class="story-person-role">
+                THE GROOM
+            </p>
+
+            <h3>
+                Saad Sura
+            </h3>
+
+            <div class="story-person-detail">
+    <div>
+        <p>Malad ( East ), Mumbai, India</p>
+    </div>
+</div>
+
+        </div>
+
+
+        <div class="story-heart">
+            <span>&amp;</span>
+        </div>
+
+
+        <div class="story-person story-person-right">
+
+            <div class="story-photo-frame">
+
+    <img
+        class="photo-frame-svg"
+        src="./Assets/Firdous Photo Fream.png"
+        alt=""
+        aria-hidden="true">
+
+</div>
+
+            <p class="story-person-role">
+                THE BRIDE
+            </p>
+
+            <h3>
+                Firdous Madhiya
+            </h3>
+
+            <div class="story-person-detail">
+    <div>
+        <p>Nalasopara ( West ), Mumbai, India</p>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TIMELINE -->
+
+    <div class="love-timeline">
+
+
+        <!-- TIMELINE ITEM 01 -->
+
+        <article class="timeline-item timeline-left">
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">
+                    27 NOVEMBER 2023
+                </p>
+
+                <p class="timeline-number">
+                    01
+                </p>
+
+                <h3>
+                    HER BRAVE
+                    <span>FIRST STEP</span>
+                </h3>
+
+                <p class="timeline-quote">
+                    “It Started With A Simple
+                    Salaam.”
+                </p>
+
+                <p class="timeline-description">
+                    You sent the first message.
+                    A simple salaam. A simple
+                    conversation. Yet somehow,
+                    that little moment became the
+                    first page of everything that
+                    followed.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- TIMELINE ITEM 02 -->
+
+        <article class="timeline-item timeline-right">
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">
+                    05 DECEMBER 2023
+                </p>
+
+                <p class="timeline-number">
+                    02
+                </p>
+
+                <h3>
+                    WHEN FEELINGS
+                    <span>FOUND WORDS</span>
+                </h3>
+
+                <p class="timeline-quote">
+                    “Some Feelings Finally Found
+                    The Courage To Be Spoken.”
+                </p>
+
+                <p class="timeline-description">
+                    Nothing extraordinary happened
+                    that day. Yet everything felt
+                    different. Feelings that had
+                    quietly grown between conversations
+                    finally found their words.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- TIMELINE ITEM 03 -->
+
+        <article class="timeline-item timeline-left">
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">
+                    06 DECEMBER 2023
+                </p>
+
+                <p class="timeline-number">
+                    03
+                </p>
+
+                <h3>
+                    WHEN WORDS
+                    <span>FOUND A VOICE</span>
+                </h3>
+
+                <p class="timeline-quote">
+                    “Our Messages Finally Found
+                    A Voice.”
+                </p>
+
+                <p class="timeline-description">
+                    Until then, our story lived
+                    inside messages. Then came
+                    the first call — and suddenly,
+                    those words became laughter,
+                    pauses and a voice to remember.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- SPECIAL MEMORY -->
+
+        <article class="timeline-feature">
+
+            <div class="timeline-feature-image">
+
+                <img
+                    src="./Assets/Ring.png"
+                    alt="A beautiful memory">
+
+            </div>
+
+            <div class="timeline-feature-content">
+
+                <p class="timeline-date">
+                    07 MAY 2024
+                </p>
+
+                <h3>
+                    THE FIRST
+                    <span>SURPRISE</span>
+                </h3>
+
+                <p class="timeline-feature-quote">
+                    “A Little Silver Ring.
+                    A Very Big Feeling.”
+                </p>
+
+                <p>
+                    It wasn't about the size of
+                    the gift. It was about the
+                    thought behind it — a small
+                    surprise carrying a piece of
+                    the future already being
+                    imagined together.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- TIMELINE ITEM 05 -->
+
+        <article class="timeline-item timeline-right">
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">
+                    18 AUGUST 2024
+                </p>
+
+                <p class="timeline-number">
+                    05
+                </p>
+
+                <h3>
+                    WHEN HOURS
+                    <span>BECAME MOMENTS</span>
+                </h3>
+
+                <div class="timeline-time">
+                    4:43:00
+                </div>
+
+                <p class="timeline-quote">
+                    “Some Conversations Don't Make
+                    You Notice The Time...
+                    They Make You Forget It Exists.”
+                </p>
+
+                <p class="timeline-description">
+                    Childhood. Dreams. Future.
+                    Fears. Laughter. Stories.
+                    One conversation simply kept
+                    becoming another until hours
+                    quietly became moments.
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <!-- STORY END -->
+
+    <div class="story-ending">
+
+        <p class="story-ending-small">
+            AND AFTER ALL THOSE
+            LITTLE MOMENTS...
+        </p>
+
+        <h2>
+            The Next Chapter
+            <span>Begins Here</span>
+        </h2>
+
+        <div class="story-ending-date">
+            14 NOVEMBER 2026
+        </div>
+
+        <p class="story-ending-names">
+            Saad Sura &amp; Firdous Madhiya
+        </p>
+
+        <p class="story-ending-line">
+            Two hearts. One journey. <br>
+            A lifetime still waiting to be written.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =================================
+     DETAILS SECTION
+================================= -->
+
+<section class="details-section" id="details">
+
+    <!-- DECORATIVE GLOW -->
+    <div class="details-glow details-glow-left"></div>
+    <div class="details-glow details-glow-right"></div>
+
+
+    <!-- =================================
+         SECTION HEADING
+    ================================== -->
+
+    <div class="details-heading">
+
+        <p class="details-script">
+            Save the Date
+        </p>
+
+        <h2>
+            The Day of Our Dreams
+        </h2>
+
+        <div class="details-line">
+            <span></span>
+            <b>♥</b>
+            <span></span>
+        </div>
+
+        <p class="details-intro">
+            A Beautiful Day, A Beautiful Beginning
+    & Memories We Will Cherish Forever.
+        </p>
+
+    </div>
+
+
+    <!-- =================================
+         MAIN DATE
+    ================================== -->
+
+    <div class="details-date-card">
+
+        <p class="details-date-small">
+            SATURDAY
+        </p>
+
+        <div class="details-date-main">
+
+            <span>14</span>
+
+            <div>
+                <strong>NOVEMBER 2026</strong>
+            </div>
+
+        </div>
+
+        <p class="details-date-bottom">
+            The Day Our Families Come Together
+            To Celebrate A Beautiful New Beginning.
+        </p>
+
+    </div>
+
+
+    <!-- =================================
+         EVENT DETAILS
+    ================================== -->
+
+    <div class="details-events">
+
+
+        <!-- =================================
+             NIKAH
+        ================================== -->
+
+        <article class="details-event-card">
+
+            <div class="details-event-top">
+
+                <div class="details-event-icon">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="9">
+                        </circle>
+
+                        <polyline
+                            points="12,7 12,12 15,14">
+                        </polyline>
+
+                    </svg>
+
+                </div>
+
+                <p>
+                    NIKAH
+                </p>
+
+            </div>
+
+            <h3>
+                A Promise of Togetherness
+            </h3>
+
+            <span class="details-event-line"></span>
+
+            <p class="details-event-note">
+                A beautiful Moment of Faith, Love,
+                And Togetherness As We Begin
+                Our Journey As One.
+            </p>
+
+            <p class="details-event-time">
+                2:30 PM <br> · 14 NOV 2026 ·
+            </p>
+
+            <p class="details-event-day">
+                SATURDAY
+            </p>
+
+            <p class="details-event-venue">
+                Jama Masjid, Majadar, Vadgam,<br>
+                Banaskantha, Gujarat
+            </p>
+
+        </article>
+
+
+        <!-- =================================
+             NIKAH PARTY
+        ================================== -->
+
+        <article class="details-event-card">
+
+            <div class="details-event-top">
+
+                <div class="details-event-icon">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                        <path
+                            d="M12 2
+                            L13.8 8.2
+                            L20 10
+                            L13.8 11.8
+                            L12 18
+                            L10.2 11.8
+                            L4 10
+                            L10.2 8.2
+                            Z">
+                        </path>
+
+                        <path
+                            d="M19 15
+                            L19.8 17.2
+                            L22 18
+                            L19.8 18.8
+                            L19 21
+                            L18.2 18.8
+                            L16 18
+                            L18.2 17.2
+                            Z">
+                        </path>
+
+                    </svg>
+
+                </div>
+
+                <p>
+                    NIKAH PARTY
+                </p>
+
+            </div>
+
+            <h3>
+                An Evening of Joy
+            </h3>
+
+            <span class="details-event-line"></span>
+
+            <p class="details-event-note">
+                An Evening Filled With Laughter,
+                Music, Joy, And The People Who
+                Make Our Lives Special.
+            </p>
+
+            <p class="details-event-time">
+                8:00 PM <br> · 14 NOV 2026 ·
+            </p>
+
+            <p class="details-event-day">
+                SATURDAY
+            </p>
+
+            <p class="details-event-venue">
+                Surapura Vas, Majadar, Vadgam,<br>
+                Banaskantha, Gujarat
+            </p>
+
+        </article>
+
+
+        <!-- =================================
+             RECEPTION / WALIMA
+        ================================== -->
+
+        <article class="details-event-card">
+
+            <div class="details-event-top">
+
+                <div class="details-event-icon">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                        <path
+                            d="M12 2
+                            L13.8 8.2
+                            L20 10
+                            L13.8 11.8
+                            L12 18
+                            L10.2 11.8
+                            L4 10
+                            L10.2 8.2
+                            Z">
+                        </path>
+
+                        <path
+                            d="M19 15
+                            L19.8 17.2
+                            L22 18
+                            L19.8 18.8
+                            L19 21
+                            L18.2 18.8
+                            L16 18
+                            L18.2 17.2
+                            Z">
+                        </path>
+
+                    </svg>
+
+                </div>
+
+                <p>
+                    RECEPTION
+                </p>
+
+            </div>
+
+            <h3>
+                The Beautiful Gathering
+            </h3>
+
+            <span class="details-event-line"></span>
+
+            <p class="details-event-note">
+                A Gathering Of Love, Gratitude,
+                And Togetherness As We Celebrate
+                This Beautiful Union.
+            </p>
+
+            <p class="details-event-time">
+                8:00 PM <br> · 15 NOV 2026 ·
+            </p>
+
+            <p class="details-event-day">
+                SUNDAY
+            </p>
+
+            <p class="details-event-venue">
+                Surapura Vas, Majadar, Vadgam,<br>
+                Banaskantha, Gujarat
+            </p>
+
+        </article>
+
+    </div>
+
+
+    <!-- =================================
+         CLOSING
+    ================================== -->
+
+    <div class="details-closing">
+
+        <p>
+            Your Presence Will Make These Beautiful
+            Moments Even More Meaningful. We Cannot
+            Wait To Celebrate This New Chapter With You.
+        </p>
+
+        <span>
+            WITH LOVE
+        </span>
+
+        <strong>
+            Saad Sura &amp; Firdous Madhiya
+        </strong>
+
+    </div>
+
+</section>
+
+
+<!-- =================================
+     RSVP + SHARE SECTION
+================================= -->
+
+<section class="rsvp-section" id="rsvp">
+
+
+    <!-- =================================
+         RSVP HEADING
+    ================================= -->
+
+    <div class="rsvp-heading">
+
+        <p class="rsvp-script">
+            Be Our Guest
+        </p>
+
+        <h2>
+            Your Presence Means the World
+        </h2>
+
+        <div class="rsvp-decoration">
+
+            <span></span>
+
+            <b>♥</b>
+
+            <span></span>
+
+        </div>
+
+        <p class="rsvp-intro">
+            We Would Be Delighted To Celebrate These Beautiful Moments
+            With You. Kindly Let Us Know If You'll Be Joining Us.
+        </p>
+
+    </div>
+
+
+    <!-- =================================
+         RSVP CARD
+    ================================= -->
+
+    <div class="rsvp-card">
+
+
+        <!-- =================================
+             YOUR NAME
+        ================================= -->
+
+        <div class="rsvp-field">
+
+            <label for="guestName">
+                Your Name
+            </label>
+
+            <input
+                type="text"
+                id="guestName"
+                name="guestName"
+                placeholder="Enter your full name"
+                required>
+
+        </div>
+
+
+        <!-- =================================
+             ATTENDANCE
+        ================================= -->
+
+        <div class="attendance-field">
+
+            <p class="attendance-label">
+                Will You Celebrate With Us?
+            </p>
+
+            <div class="attendance-options">
+
+
+                <!-- YES -->
+
+                <label class="attendance-option">
+
+                    <input
+                        type="radio"
+                        name="attendance"
+                        value="yes"
+                        checked>
+
+                    <span class="attendance-card">
+
+                        <span class="attendance-icon">
+                            ♥
+                        </span>
+
+                        <span class="attendance-text">
+                            YES, WITH JOY
+                        </span>
+
+                    </span>
+
+                </label>
+
+
+                <!-- NO -->
+
+                <label class="attendance-option">
+
+                    <input
+                        type="radio"
+                        name="attendance"
+                        value="no">
+
+                    <span class="attendance-card">
+
+                        <span class="attendance-icon">
+                            ♡
+                        </span>
+
+                        <span class="attendance-text">
+                            REGRETFULLY, NO
+                        </span>
+
+                    </span>
+
+                </label>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================
+             EVENT SELECTION
+        ================================= -->
+
+        <div class="event-selection">
+
+
+            <!-- EVENT HEADING -->
+
+            <div class="event-selection-heading">
+
+                <p class="event-selection-eyebrow">
+                    THE CELEBRATIONS
+                </p>
+
+                <h3>
+                    Choose the Celebrations
+                    You'll Join
+                </h3>
+
+                <p>
+                    Select The Moments You Will Be
+                    Celebrating With Us.
+                </p>
+
+            </div>
+
+
+            <!-- =================================
+                 WEDDING DAY
+            ================================= -->
+
+            <div class="event-group">
+
+                <div class="event-group-heading">
+
+                    <span></span>
+
+                    <h4>
+                        WEDDING DAY
+                    </h4>
+
+                    <span></span>
+
+                </div>
+
+
+                <div class="event-options">
+
+
+                    <!-- NIKAH -->
+
+                    <label class="event-option">
+
+                        <input
+                            type="checkbox"
+                            name="events"
+                            value="nikah">
+
+                        <span class="event-card">
+
+                            <span class="event-card-check">
+                                ✓
+                            </span>
+
+                            <span class="event-card-top">
+
+                                <span class="event-card-icon">
+                                    ♡
+                                </span>
+
+                                <span class="event-card-label">
+                                    NIKAH
+                                </span>
+
+                            </span>
+
+                            <strong class="event-card-date">
+                                14 November 2026 · 2:30 PM
+                            </strong>
+
+                            <span class="event-card-venue">
+                                Jama Masjid, Majadar, Vadgam,<br>
+                                Banaskantha, Gujarat
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                    <!-- NIKAH PARTY -->
+
+                    <label class="event-option">
+
+                        <input
+                            type="checkbox"
+                            name="events"
+                            value="nikah-party">
+
+                        <span class="event-card">
+
+                            <span class="event-card-check">
+                                ✓
+                            </span>
+
+                            <span class="event-card-top">
+
+                                <span class="event-card-icon">
+                                    ✦
+                                </span>
+
+                                <span class="event-card-label">
+                                    NIKAH PARTY
+                                </span>
+
+                            </span>
+
+                            <strong class="event-card-date">
+                                14 November 2026 · 8:00 PM
+                            </strong>
+
+                            <span class="event-card-venue">
+                                Surapura Vas, Majadar, Vadgam,<br>
+                                Banaskantha, Gujarat
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 RECEPTION
+            ================================= -->
+
+            <div class="event-group event-group-reception">
+
+                <div class="event-group-heading">
+
+                    <span></span>
+
+                    <h4>
+                        RECEPTION
+                    </h4>
+
+                    <span></span>
+
+                </div>
+
+
+                <div class="event-options event-options-single">
+
+
+                    <!-- RECEPTION · WALIMA -->
+
+                    <label class="event-option">
+
+                        <input
+                            type="checkbox"
+                            name="events"
+                            value="reception-walima">
+
+                        <span class="event-card event-card-featured">
+
+                            <span class="event-card-check">
+                                ✓
+                            </span>
+
+                            <span class="event-card-top">
+
+                                <span class="event-card-icon">
+                                    ✦
+                                </span>
+
+                                <span class="event-card-label">
+                                    RECEPTION · WALIMA
+                                </span>
+
+                            </span>
+
+                            <strong class="event-card-date">
+                                15 November 2026 · 8:00 PM
+                            </strong>
+
+                            <span class="event-card-venue">
+                                Surapura Vas, Majadar, Vadgam,<br>
+                                Banaskantha, Gujarat
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================
+             NUMBER OF GUESTS
+        ================================= -->
+
+        <div class="guest-count-field">
+
+            <p class="guest-count-label">
+                NUMBER OF GUESTS
+            </p>
+
+            <p class="guest-count-note">
+                Please Include Everyone Attending With You
+            </p>
+
+            <div class="guest-counter">
+
+                <button
+                    type="button"
+                    class="guest-counter-button"
+                    id="guestMinus"
+                    aria-label="Decrease number of guests">
+                    −
+                </button>
+
+                <span
+                    class="guest-count-value"
+                    id="guestCount">
+                    1
+                </span>
+
+                <button
+                    type="button"
+                    class="guest-counter-button"
+                    id="guestPlus"
+                    aria-label="Increase number of guests">
+                    +
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================
+             MESSAGE
+        ================================= -->
+
+        <div class="rsvp-message">
+
+            <label for="guestMessage">
+                Leave Us a Little Love
+            </label>
+
+            <textarea
+                id="guestMessage"
+                name="guestMessage"
+                placeholder="Send your wishes for the journey ahead..."></textarea>
+
+        </div>
+
+
+        <!-- =================================
+             SUBMIT
+        ================================= -->
+
+        <button
+            type="submit"
+            class="rsvp-submit">
+
+            <span>
+                CONFIRM MY RSVP
+            </span>
+
+            <b>
+                →
+            </b>
+
+        </button>
+
+
+        <!-- =================================
+             RSVP CLOSING
+        ================================= -->
+
+        <div class="rsvp-closing">
+
+            <p>
+                Thank You For Being Part Of Our Story
+            </p>
+
+            <span>
+                WITH LOVE
+            </span>
+
+            <strong>
+                Saad Sura &amp; Firdous Madhiya
+            </strong>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- =================================
+         SHARE OUR JOY
+         INSIDE RSVP SECTION
+    ================================= -->
+
+    <div class="share-content">
+
+
+        <!-- EYEBROW -->
+
+        <p class="share-eyebrow">
+            SPREAD THE LOVE
+        </p>
+
+
+        <!-- HEADING -->
+
+        <h2>
+            Share our joy
+        </h2>
+
+
+        <!-- DECORATIVE LINE -->
+
+        <div class="share-decoration">
+
+            <span></span>
+
+            <b>♥</b>
+
+            <span></span>
+
+        </div>
+
+
+        <!-- SHARE BUTTONS -->
+
+        <div class="share-buttons">
+
+
+            <!-- WHATSAPP -->
+
+            <button
+                type="button"
+                class="share-button"
+                id="whatsappShare">
+
+                <span>
+                    WhatsApp
+                </span>
+
+            </button>
+
+
+            <!-- ADD TO CALENDAR -->
+
+            <button
+                type="button"
+                class="share-button share-calendar"
+                id="calendarButton">
+
+                <span>
+                    Add to Calendar
+                </span>
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =================================
+     WEDDING FOOTER
+================================= -->
+
+<footer class="wedding-footer">
+
+    <div class="footer-content">
+
+        <!-- MAIN CLOSING -->
+        <div class="footer-opening">
+
+            <h2>
+    ONE BEAUTIFUL DAY. <span>TWO HEARTS.</span> ONE FOREVER.
+</h2>
+
+            <p>
+                And A Lifetime Of Beautiful Moments Waiting To Be Written.
+            </p>
+
+        </div>
+
+
+        <!-- COUPLE -->
+        <div class="footer-couple">
+
+            <h3>
+                Saad Sura &amp; Firdous Madhiya
+            </h3>
+
+            <p>
+                14 · 11 · 2026
+            </p>
+
+        </div>
+
+
+        <!-- LOVE MESSAGE -->
+        <div class="footer-love">
+
+            <p>
+                With Love, Gratitude &amp; Endless Happiness, We Begin Our Forever. 
+                <br> Thank You For Celebrating Our Beginning With Us. 
+                <br> Your Presence, Your Prayers, And Your Love Will Forever Be A Part Of Our Story.
+            </p>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 · Saad &amp; Firdous
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
