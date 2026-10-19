@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 
         loadingScreen.style.visibility = "hidden";
 
-    }, 100);
+    }, 3000);
 
 });
 
